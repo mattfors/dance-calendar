@@ -19,3 +19,6 @@ ShowBreadCrumbs = true
         name = "Venues"
         url = "/venues/"
         weight = 3
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
