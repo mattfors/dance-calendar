@@ -1,0 +1,49 @@
+{{ define "main" }}
+<main>
+    <header class="page-header">
+        {{ partial "breadcrumbs.html" . }}
+        <h1>{{ .Title }}</h1>
+        {{ if .Description }}
+        <div class="page-description">
+            {{ .Description | markdownify }}
+        </div>
+        {{ end }}
+    </header>
+    <article>
+
+        <address>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg> {{ .Params.street }} {{ .Params.city }}, {{ .Params.state }} {{ .Params.zip }}
+        </address>
+
+        {{ if .Params.phone }}
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor">
+                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1v3.5c0 .55-.45 1-1 1C10.29 22 2 13.71 2 3.5 2 2.95 2.45 2.5 3 2.5H6.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.12.35.03.75-.24 1.02l-2.2 2.2z"/>
+            </svg>
+            <a href="tel:{{ .Params.phone }}">{{ .Params.phone | replaceRE "^\\+1(\\d{3})(\\d{3})(\\d{4})$" "+1 ($1) $2-$3" }}</a>
+        </div>
+        {{ end }}
+
+        {{ if .Params.information }}
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v2h-2zm0 4h2v6h-2z"/>
+            </svg>
+            {{ delimit .Params.information ", " ", " }}
+        </div>
+        {{ end }}
+        <div>
+            {{ .Content }}
+        </div>
+        <div>
+            {{ range where .Site.RegularPages "Section" "events" }}
+            {{ if eq .Params.venue $.Params.slug }}
+            {{ partial "event_entry.html" . }}
+            {{ end }}
+            {{ end }}
+        </div>
+    </article>
+</main>
+{{ end }}
