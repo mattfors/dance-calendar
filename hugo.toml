@@ -1,4 +1,3 @@
-baseURL = 'https://mattfors.github.io/dance-calendar/'
 languageCode = 'en-us'
 title = 'Dance Calendar'
 theme = 'papermod'
