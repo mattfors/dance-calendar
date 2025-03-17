@@ -1,1 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Venues on Dance Calendar</title><link>https://mattfors.github.io/dance-calendar/venues/</link><description>Recent content in Venues on Dance Calendar</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://mattfors.github.io/dance-calendar/venues/index.xml" rel="self" type="application/rss+xml"/><item><title>Bridgeway Station</title><link>https://mattfors.github.io/dance-calendar/venues/bridgeway-station/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mattfors.github.io/dance-calendar/venues/bridgeway-station/</guid><description/></item><item><title>Carolina Ballroom</title><link>https://mattfors.github.io/dance-calendar/venues/carolina-ballroom-venue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mattfors.github.io/dance-calendar/venues/carolina-ballroom-venue/</guid><description/></item><item><title>Mama Juana Latin Food</title><link>https://mattfors.github.io/dance-calendar/venues/mama-juana-latin-food/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mattfors.github.io/dance-calendar/venues/mama-juana-latin-food/</guid><description/></item><item><title>Social Latitude</title><link>https://mattfors.github.io/dance-calendar/venues/social-latitude/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mattfors.github.io/dance-calendar/venues/social-latitude/</guid><description/></item><item><title>Spare Time</title><link>https://mattfors.github.io/dance-calendar/venues/spare-time/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mattfors.github.io/dance-calendar/venues/spare-time/</guid><description/></item><item><title>The Ballroom Lab</title><link>https://mattfors.github.io/dance-calendar/venues/the-ballroom-lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mattfors.github.io/dance-calendar/venues/the-ballroom-lab/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Venues on Dance Calendar</title>
+    <link>https://mattfors.github.io/dance-calendar/venues/</link>
+    <description>Recent content in Venues on Dance Calendar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://mattfors.github.io/dance-calendar/venues/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bridgeway Station</title>
+      <link>https://mattfors.github.io/dance-calendar/venues/bridgeway-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mattfors.github.io/dance-calendar/venues/bridgeway-station/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carolina Ballroom</title>
+      <link>https://mattfors.github.io/dance-calendar/venues/carolina-ballroom-venue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mattfors.github.io/dance-calendar/venues/carolina-ballroom-venue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mama Juana Latin Food</title>
+      <link>https://mattfors.github.io/dance-calendar/venues/mama-juana-latin-food/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mattfors.github.io/dance-calendar/venues/mama-juana-latin-food/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social Latitude</title>
+      <link>https://mattfors.github.io/dance-calendar/venues/social-latitude/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mattfors.github.io/dance-calendar/venues/social-latitude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spare Time</title>
+      <link>https://mattfors.github.io/dance-calendar/venues/spare-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mattfors.github.io/dance-calendar/venues/spare-time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Ballroom Lab</title>
+      <link>https://mattfors.github.io/dance-calendar/venues/the-ballroom-lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mattfors.github.io/dance-calendar/venues/the-ballroom-lab/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
