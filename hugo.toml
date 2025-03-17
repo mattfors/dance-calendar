@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Dance Calendar'
+theme = 'papermod'
+[params]
+ShowBreadCrumbs = true
+
+[menu]
+    [[menu.main]]
+        name = "Events"
+        url = "/events/"
+        weight = 1
+
+        [[menu.main]]
+        name = "Organizers"
+        url = "/organizers/"
+        weight = 2
+
+        [[menu.main]]
+        name = "Venues"
+        url = "/venues/"
+        weight = 3
