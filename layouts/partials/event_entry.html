@@ -1,14 +1,14 @@
 <article class="post-entry">
     <header class="entry-header">
         <div class="entry-hint-parent">
-            <a href="{{ .Permalink }}">{{ .Title }}</a> {{ .Params.style }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a> <span class="entry-content">{{ .Params.style }}</span>
         </div>
     </header>
     <div class="entry-content">
-        <div>
-            {{ .Params.startDate | dateFormat "Mon Jan 2 | 3:04 PM" }} |
+        <div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+            {{ .Params.startDate | dateFormat "Mon Jan 2 | 3:04 PM" }}
             {{ with .Site.GetPage "venues" .Params.venue }}
-            {{ .Params.city }} | {{ .Params.title }}
+            | {{ .Params.title }}
             {{ end }}
         </div>
         {{ if isset .Params "price" }}
